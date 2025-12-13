@@ -6,4 +6,5 @@ def patternM(n):
         for col in range(1,coltimes+1):
             print("*",end="")
         print()
+    
 patternM(int(input("Enter a Number:")))
